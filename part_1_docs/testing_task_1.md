@@ -19,16 +19,19 @@ class CardGame:
 
   def check_for_ace(self, card):
     if card.value = 1:  
-    # Error.. Should be 'card.value == 1:'
+    # Error.. Should be 'card.value == 1:'..
       return True
     else
-    # Error.. Missing colon, should be 'else:'
+    # Error.. Missing colon, should be 'else:'..
       return False
    
 
   dif highest_card(self, card1 card2):
+  # Error.. Should be 'def', not 'dif'..
+  # Error.. The 'if, else' code block below should be indented to the right..
   if card1.value > card2.value:
     return card
+  # Error.. Should be 'card1', no 'card' input passed in..
   else:
     return card2
   
@@ -36,8 +39,12 @@ class CardGame:
 
 def cards_total(self, cards):
   total
+  # Error.. The 'total' variable above is not defined, it needs to = something..
+  # Or, to be pulled from a class, eg. 'cards.total', etc..
   for card in cards:
     total += card.value
     return "You have a total of" + total
-  
+  # Error.. The return above is missing a space, or could be better as an f string, set out as below..
+  # 'return (f"You have a total of {total}")
+
 ```
