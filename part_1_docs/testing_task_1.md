@@ -28,6 +28,7 @@ class CardGame:
 
   dif highest_card(self, card1 card2):
   # Error.. Should be 'def', not 'dif'..
+  # Error.. There is a comma missing, should be 'card1, card2'..
   # Error.. The 'if, else' code block below should be indented to the right..
   if card1.value > card2.value:
     return card
@@ -36,7 +37,7 @@ class CardGame:
     return card2
   
 
-
+# Error.. This whole code block should be indented to the right..
 def cards_total(self, cards):
   total
   # Error.. The 'total' variable above is not defined, it needs to = something..
@@ -44,7 +45,8 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     return "You have a total of" + total
-  # Error.. The return above is missing a space, or could be better as an f string, set out as below..
+  # Error.. The return statement above, should be indented back to the left, parallel to the 'for' loop..
+  # Error.. Also, the return above is missing a space, or could be better as an f string, set out as below..
   # 'return (f"You have a total of {total}")
 
 ```

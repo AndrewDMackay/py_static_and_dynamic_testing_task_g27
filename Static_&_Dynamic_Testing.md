@@ -11,6 +11,7 @@
 
   (Remember you can use `#` to comment in Ruby code.)
 
+  <!-- Done -->
 
 #### Task 2: Dynamic Testing
 
