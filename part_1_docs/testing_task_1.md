@@ -18,9 +18,11 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    # if card.value = 1:  [ Error.. Should be 'card.value == 1:' ]
+    if card.value = 1:  
+    # Error.. Should be 'card.value == 1:'
       return True
     else
+    # Error.. Missing colon, should be 'else:'
       return False
    
 
